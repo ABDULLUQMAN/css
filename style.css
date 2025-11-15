@@ -1,0 +1,66 @@
+h2{
+    color:black
+}
+/* nav{
+    text-align: center;
+    margin: auto;
+} */
+nav a:hover{
+    color:red;
+} 
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  
+  background-color: #ffcfcf;
+  /* position:fixed; */
+  text-align: center;
+  margin: auto;
+}
+.parent{
+    display:flex;
+    flex-wrap: wrap; 
+   
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+    
+  
+
+}
+.card{
+    height: 380px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: rgb(138, 126, 107);
+    text-align: center;
+    border-radius: 10px;
+
+   
+
+} 
+
+.cardimg{
+    height:100px;
+    width: 100px;
+    background-position: center;
+}
+button{
+    background-color: crimson;
+}
+.parent2{
+    display: flex;
+    justify-content: space-between;
+   position: relative;
+   top: 90px;
+    
+}
+.main{
+    background-image:url("https://img-c.udemycdn.com/course/750x422/5380132_3dad.jpg");
+    background-repeat:repeat-y;
+    background-color: darkkhaki;
+    background-position:bottom;
+    background-size:cover;
+}
